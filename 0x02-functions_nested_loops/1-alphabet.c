@@ -6,14 +6,14 @@
  * Return: Always 0 (Success)
  */
 void print_alphabet (void)
+int main(void)
 {
 
-char alph;
-alph = 'a'
-while (alph <= 'z')
+int ch;
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-_putchar(alph); alph++;
+_putchar (ch);
 }
-_putchar('\n');
-return ;
+_putchar ('\n');
+return (0);
 }

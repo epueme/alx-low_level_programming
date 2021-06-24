@@ -5,15 +5,14 @@
  *
  * Return: Always 0 (Success)
  */
-void print.alphabet (void)
+int  main(void)
 {
-  char alph;
-alph = 'a'
-  while (alph <= 'z')
-    {
-     _putchar(alph);
-     alph++;
-    }
-  _putchar('\n');
-return;
+
+int ch;
+for (ch = 'a'; ch <= 'z'; ch++)
+{
+_putchar (ch);
+}
+_putchar ('\n');
+return (0);
 }

@@ -1,0 +1,1 @@
+This folder is for my lessons on pointer arrays and strings

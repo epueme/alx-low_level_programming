@@ -1,12 +1,12 @@
 #include "holberton.h"
 
 /**
- * main - update the value of on int to 98
+ * void reset_to_98(int *n) -a function to update the value of on int to 98
  * 
- * Return: nothing
+ * n: is the  pointer variable
  */
 
 void reset_to_98(int *n)
 {
-  *n = 98;
+*n = 98;
 }

@@ -1,0 +1,1 @@
+This directory is the lessons on pointer, arrays and string
